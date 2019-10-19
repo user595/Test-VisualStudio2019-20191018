@@ -2,9 +2,19 @@
 //
 
 #include <iostream>
+#include "Line.h"
+
+class Circle {
+	int radius;
+public:
+	Circle() { radius = 0; }
+	Circle(int r) { radius = r; }
+};
 
 int main()
 {
+	Circle c = Circle(1);
+	Line l = Line(-1, -1, 2, 2);
     std::cout << "Hello World!\n";
 }
 
